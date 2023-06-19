@@ -12,9 +12,10 @@
 integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" 
 referrerpolicy="no-referrer" />    
 <link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="container header-container">
         <nav class=" header-navigation">
             <a class="header-logo link" href="http://127.0.0.1:5501/index.html" >Web<span class="header-logo-studio">Studio</span></a>
@@ -37,19 +38,18 @@ referrerpolicy="no-referrer" />
     </ul>
     </address>
 </div>
-    </header>  
+    </header>   -->
     <main>
-        <section class="first-section">
+        <!-- <section class="first-section">
             <div class="container hero-container">
                 <h1 class="first-header">Effective Solutions
                     for Your Business</h1>
             <button type="button" class="studio-btn" data-modal-open>Order Service</button>
         </div>
-        </section>
+        </section> -->
         <section class="second-section">
             <div class="container description-container">
             <h2  class="hidden visually-hidden">hidden info</h2>
-              <!-- start -->
               <ul class="icon-description-list">
                 <li class="icon-description-item">
                     <div class="container icon-cont"><svg width="64" height="64" class="description-icon">
@@ -97,8 +97,6 @@ referrerpolicy="no-referrer" />
                             </div>
                                         </li>
                 </ul>
-        
-                <!-- end -->
             <ul class="description list">
             <li class="description-active icon-delivery">
                 <h3 class="text description-text">Strategy</h3>
@@ -121,7 +119,7 @@ referrerpolicy="no-referrer" />
             </ul>
         </div>
         </section>
-        <section class="third-section">
+        <!-- <section class="third-section">
             <div class="container image-container">
             <h2 class="second-header">What are we doing</h2>
             <ul class="images list">
@@ -136,13 +134,16 @@ referrerpolicy="no-referrer" />
                         height="300"></li>
             </ul>
         </div>
-        </section>
-        <section class="fourth-section">
+        </section> -->
+        <!-- <section class="fourth-section">
             <div class="container img-list-container">
             <h2 class="third-header">Our Team</h2>
             <ul class="img-list list">
                 
-                <li class="first-img"><img src="./images/1.jpg" alt="mark" 
+                <li class="first-img">
+                    <img 
+                    srcset="./images/1.jpg 1x, ./images/1@x2.jpg 2x"
+                    src="./images/1.jpg" alt="mark" 
                         width="264" 
                         height="260">
                         <div class="position-container">
@@ -192,7 +193,10 @@ referrerpolicy="no-referrer" />
                         </ul>
                         </div>
                 </li>
-                <li class="first-img"><img src="./images/2.jpg" alt="tom" 
+                <li class="first-img">
+                    <img 
+                    srcset="./images/2.jpg 1x, ./images/2@x2.jpg 2x"
+                    src="./images/2.jpg" alt="tom" 
                         width="264" 
                         height="260">
                         <div class="position-container">
@@ -242,7 +246,10 @@ referrerpolicy="no-referrer" />
                         </ul>
                         </div>
                 </li>
-                <li class="first-img"><img src="./images/3.jpg" alt="camila" 
+                <li class="first-img">
+                    <img 
+                    srcset="./images/3.jpg 1x, ./images/3@x2.jpg 2x"
+                    src="./images/3.jpg" alt="camila" 
                         width="264" 
                         height="260">
                         <div class="position-container">
@@ -292,7 +299,10 @@ referrerpolicy="no-referrer" />
                         </ul>
                         </div>
                 </li>            
-                <li class="first-img"><img src="./images/4.jpg" alt="daniel" 
+                <li class="first-img">
+                    <img 
+                    srcset="./images/4.jpg 1x, ./images/4@x2.jpg 2x"
+                    src="./images/4.jpg" alt="daniel" 
                         width="264" 
                         height="260">
                         <div class="position-container">
@@ -344,8 +354,8 @@ referrerpolicy="no-referrer" />
                 </li>         
             </ul>
         </div>
-        </section>
-        <section class="customers">
+        </section> -->
+        <!-- <section class="customers">
             <div class="container">
                 <h2 class="fifth-header">Customers</h2>
                 <ul class="container-list list">
@@ -394,9 +404,9 @@ referrerpolicy="no-referrer" />
                 </ul>
             </div>
 
-        </section>
+        </section> -->
     </main> 
-    <footer class="footer">
+    <!-- <footer class="footer">
  <div class=" container footer-main">
         <div class="footer-container">
         <a class="footer-logo link" href="./index.html" >Web<span class="logo-footer">Studio</span></a>
@@ -466,8 +476,8 @@ referrerpolicy="no-referrer" />
      </form>
     </div>
 </div>
-    </footer>
-    <div class="backdrop  is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop  is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg width="8" height="8" class="backdrop-icon">
@@ -535,7 +545,7 @@ value="true" class="modal-form-check visually-hidden">
 <button type="submit" class="modal-button">Send</button>
             </form>
         </div>
-</div>
+</div> -->
 <script src="./js/modal.js"></script>
 </body>
 </html>
