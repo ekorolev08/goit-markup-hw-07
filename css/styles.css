@@ -255,20 +255,31 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
 /*---------------------------------------second-section ------------------------------------------------------ */
 .second-section{
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .description {
-  /* display: flex; 
-  gap: 24px; */
-  
+  display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    
 }
+.icon-description-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  
+  }
+  
 .description-active{
   /* flex-basis: calc( (100% - 3 * 24px) / 4);  */
   max-width: 264px; 
   border-radius: 4px; 
+  
+  
 }
 .icon-cont {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -276,17 +287,14 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   border-radius: 4px;
   margin-bottom: 8px;
   max-width: 264px; 
-  gap: 24px;
-  
-}
-.icon-description-list{
-  /* display: flex;
-  gap: 24px;  */
+  gap: 24px; */
   display: none;
-  }
+}
+
   .icon-description-item{
-    width: 264px;
-  height: 112px; 
+    /* width: 264px;
+  height: 112px;  */
+  
     }
 
 
@@ -326,8 +334,15 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   background-size: 64px;
 } */
 .description-text{
-  margin-top: 8px;
-  margin-bottom: 8px;  
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em; 
 }
 
 .visually-hidden {
@@ -342,23 +357,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
     clip-path: inset(100%);
     margin: -1px;
 }
-/* @media screen and (max-width: 428px) {
-  .container { 
-max-width: 428px;
-  }
-  .description {
-    max-width: 428px;
-  }
 
-}
-@media screen and (min-width: 768px) {
-  .container { 
-max-width: 768px;
-  }
-  .description {
-    width: calc((100% - 72px) / 2);
-  }
-} */
 /*-------------------------------------------------third-section----------------------------------------------------  */
 .third-section{
   padding-bottom: 120px;
