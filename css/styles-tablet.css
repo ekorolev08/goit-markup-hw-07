@@ -15,7 +15,7 @@
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/2.jpg);
+      url(../images/bg-tablet@x1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,7 +32,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/2@x2.jpg);
+        url(../images/bg-tablet@x2.jpg);
     }
     
   }
