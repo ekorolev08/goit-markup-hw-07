@@ -43,19 +43,22 @@
   }
   /*----------second-section-----------*/
  
-  .icon-description-list {
+  .icon-description-list{
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
-  }
+    }
+
   .description-text {
     justify-content: flex-start;
   }
+
   .description-name {
     width: 356px;
   }
-  .description-active {
+  
+  .icon-description-item {
     width: calc((100% - 24px) / 2);
   }
 }
