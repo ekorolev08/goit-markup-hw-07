@@ -61,4 +61,53 @@
   .icon-description-item {
     width: calc((100% - 24px) / 2);
   }
+  /* --------------------------------fourth-section------------------------------------------------- */
+
+/* .fourth-section{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #F4F4FD
+} */
+.img-list-container {
+  padding: 0 108px;
+}
+        /* ============Our Team============*/
+/* .third-header {
+font-weight: 700; 
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 72px;
+background-color: #F4F4FD;
+color: #2E2F42;
+} */
+.img-list {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  background-color: #F4F4FD;
+}
+.first-img {
+  border-radius: 0px 0px 4px 4px; 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+  rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: #FFFFFF;
+  width: calc((100% - 24px) / 2);
+  /* width: 100%; */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ /* --------------------------------CUSTOMERS--------------------------------------------- */
+ .customers {
+  padding: 0 108px;
+}
+
+.container-item{
+  width: calc((100% - 32px) / 3);
+}
+
+
 }
