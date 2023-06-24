@@ -2,8 +2,94 @@
     .container {
       max-width: 766px;
     }
+/*------------------ HEADER------------------- */
+.header-logo {
+  margin-right: 76px;
+}
 
-  
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
+.header-link {
+  display: block;
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  transition: color var(--transition);
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+.header-link.current {
+  color: #404bbf;
+}
+.header-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform var(--transition);
+  width: 100%;
+  height: 4px;
+  bottom: -1px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+.header-link:hover:after,
+.header-link:focus:after,
+.header-link.current:after {
+  transform: scaleX(1);
+
+  -webkit-animation: my-animation 2000ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    infinite both;
+  animation: my-animation 2000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    both;
+}
+.header-address {
+  display: flex;
+  margin-left: auto;
+  font-style: normal;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header-link-address {
+  display: block;
+  transition: color var(--transition);
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #434455;
+}
+.header-link-address:hover,
+.header-link-address:focus {
+  color: #404bbf;
+}
+
+.hamburger-btn {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
   /**------------------HERO------------------*/
 
   .first-section {
@@ -61,7 +147,7 @@
   .icon-description-item {
     width: calc((100% - 24px) / 2);
   }
-  /* --------------------------------fourth-section------------------------------------------------- */
+  /* -----------------------fourth-section------------------------------------------------- */
 
 /* .fourth-section{
   padding-top: 96px;
@@ -148,7 +234,7 @@ color: #2E2F42;
   gap: 24px;
   flex-direction: row;
   }
-  
+
   /* label */
   /* .footer-input-label-icon {
     display: flex;

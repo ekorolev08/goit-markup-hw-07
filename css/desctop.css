@@ -3,7 +3,26 @@
       max-width: 1158px;
     }
 
+/**---------------HEADER-----------------*/
+.header-container {
+  max-width: 1128px;
+}
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header-link-address {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 
 /*-------------------------------HERO----------------------------*/
 
