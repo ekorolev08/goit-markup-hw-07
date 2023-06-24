@@ -66,20 +66,25 @@ img {
  }
 
 .header-container {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+height: 70px;
  
 }
 .header-navigation{
-  display: block;
+  /* display: block; */
   display: flex;
   align-items: center;
   
 }
 .header-list {
-  display: flex;
-   gap: 40px;  
+  /* display: flex;
+   gap: 40px;   */
+   display: none;
+  }
+  .header-address {
+    display: none;
   }
 
  /* contacts studio portfolio*/
@@ -155,7 +160,7 @@ img {
  
 }
   .header-logo {
-    margin-right: 76px;
+    /* margin-right: 76px; */
   font-family:"Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -171,6 +176,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .header-logo-studio {
+  margin: 0 auto;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
