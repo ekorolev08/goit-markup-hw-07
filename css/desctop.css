@@ -108,12 +108,19 @@ gap: 24px;
 }
 
  /* --------------------------------CUSTOMERS--------------------------------------------- */
- .customers {
+ .customers-cont {
   padding: 0 15px;
 }
 
 .container-item{
   width: calc((100% - 80px) / 6);
 }
+/* -------------------------------FOOTER----------------------------------------------- */
+ .footer-main {
+     width: 1128px;
+     padding: 0 15px;
+     justify-content: space-between;
+     background: #2e2f42;
+ }
 
 }
