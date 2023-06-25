@@ -57,6 +57,9 @@ img {
 .link {
   text-decoration: none;
 }
+.no-scroll {
+  overflow: hidden;
+}
 
 /*--------------------------- HEADER-------------------------------------- */
 .header {
@@ -314,8 +317,6 @@ color: var(--logo-color);
   background-position: center;
   background-size: cover;
   /* background-color: var(--background-color); */
-  -webkit-animation: kenburns-top 2000ms ease-out reverse both;
-  animation: kenburns-top 2000ms ease-out reverse both;
 }
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),

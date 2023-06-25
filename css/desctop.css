@@ -40,9 +40,7 @@ color: #434455;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    -webkit-animation: kenburns-top 2000ms ease-out reverse both;
-    animation: kenburns-top 2000ms ease-out reverse both;
-  
+    
   }
 
   @media (min-device-pixel-ratio: 2),
